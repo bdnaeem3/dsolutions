@@ -115,9 +115,6 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      ...screen_sizes,
-    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
@@ -137,8 +134,20 @@ module.exports = {
         DEFAULT: "10px",
       },
     },
+    fontSize: {
+      ...one_to_hundred,
+    },
+    letterSpacing: {
+      ...one_to_hundred,
+    },
+    screens: {
+      ...screen_sizes,
+    },
     extend: {
       spacing: {
+        ...one_to_hundred,
+      },
+      lineHeight: {
         ...one_to_hundred,
       },
     },
