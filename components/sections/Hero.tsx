@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import _ from "lodash";
 import Slider from "react-slick";
-import { slider } from "../../data";
+import { hero } from "../../data";
 
 const settings = {
   arrows: false,
@@ -23,14 +23,14 @@ const Hero = () => {
       }}
     >
       <Slider {...settings}>
-        {_.map(slider, (item, i) => {
+        {_.map(hero, (item, i) => {
           return (
             <div key={i}>
               <div className="min-h-screen container flex items-center">
-                <div className="w-1/2">
+                <div className="w-1/2 px-10">
                   <img src={item.img} alt={item.title} />
                 </div>
-                <div className="w-1/2">
+                <div className="w-1/2 px-10">
                   <a
                     href={item.url}
                     className="text-30 text-white hover:text-primary tracking-5"

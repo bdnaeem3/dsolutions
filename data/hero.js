@@ -1,4 +1,4 @@
-const slider = [
+const hero = [
   {
     url: "#",
     img: "/img/slider/content-1.png",
@@ -19,4 +19,4 @@ const slider = [
   },
 ];
 
-export default slider;
+export default hero;

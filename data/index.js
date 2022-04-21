@@ -1,3 +1,5 @@
-import slider from "./slider";
+import header from "./header";
+import hero from "./hero";
+import about from "./about";
 
-export { slider };
+export { header, hero, about };

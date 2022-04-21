@@ -115,10 +115,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    borderRadius: {
+      ...one_to_hundred,
+    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
       primary: "#e93100",
+      text: "#333",
+      offWhite: "#f5f5f5",
       white: "white",
     },
     container: {
@@ -140,14 +145,21 @@ module.exports = {
     letterSpacing: {
       ...one_to_hundred,
     },
+    minWidth: {
+      ...one_to_hundred,
+    },
     screens: {
       ...screen_sizes,
     },
     extend: {
-      spacing: {
-        ...one_to_hundred,
+      boxShadow: {
+        progress: "inset 0 -1px 0 rgb(0 0 0 / 15%);",
+        progressBG: "inset 0 1px 2px rgb(0 0 0 / 10%);",
       },
       lineHeight: {
+        ...one_to_hundred,
+      },
+      spacing: {
         ...one_to_hundred,
       },
     },

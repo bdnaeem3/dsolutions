@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import About from "../components/sections/About";
 
 // components
 import Header from "../components/sections/Header";
@@ -9,6 +10,7 @@ const Home: NextPage = () => {
     <>
       <Header />
       <Hero />
+      <About />
     </>
   );
 };
