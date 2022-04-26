@@ -1,9 +1,10 @@
 import type { NextPage } from "next";
-import About from "../components/sections/About";
 
 // components
 import Header from "../components/sections/Header";
 import Hero from "../components/sections/Hero";
+import About from "../components/sections/About";
+import Services from "../components/sections/Services";
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       <Header />
       <Hero />
       <About />
+      <Services />
     </>
   );
 };

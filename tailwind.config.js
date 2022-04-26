@@ -125,6 +125,10 @@ module.exports = {
       text: "#333",
       offWhite: "#f5f5f5",
       white: "white",
+      black: "black",
+      serviceTab: "#bbb",
+      border: "#ddd",
+      sectionBG: "#ccc",
     },
     container: {
       center: true,
